@@ -34,10 +34,6 @@
   .introduction .square-svg:first-child { transform: translate(50%, 35%) }
 }
 
-@media (max-width: 768px) {
-
-}
-
 @media (max-width: 576px) {
   .introduction-content { width: calc(100% - var(--gutter)) }
   .introduction .square-svg { display: none }

@@ -1,6 +1,6 @@
 .features {
   color: white;
-  padding: 2em 0;
+  padding: var(--gutter) 0;
 }
 
 .features p {
@@ -55,4 +55,12 @@
 
 .features-grid .feature:not(:last-child) {
   margin-bottom: 6em;
+}
+
+@media (max-width: 768px) {
+  .features, .features-grid {
+    display: block;
+  }
+  .features-introduction { padding-right: var(--gutter) }
+  .features-grid .grid-right { padding-left: var(--gutter) }
 }
