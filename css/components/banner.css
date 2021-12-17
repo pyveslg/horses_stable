@@ -5,7 +5,7 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .banner-content {
