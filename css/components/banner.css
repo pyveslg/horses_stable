@@ -9,7 +9,7 @@
 }
 
 .banner-content {
-  padding-left: 2em;
+  padding-left: var(--gutter);
 }
 
 .banner h1 {
