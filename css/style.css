@@ -6,10 +6,22 @@
 @import url('components/banner.css');
 @import url('components/button.css');
 @import url('components/tag.css');
+@import url('components/svg.css');
+
+/* --- Pages design --- */
+@import url('pages/home.css');
 
 :root {
   --black: #142026;
   --white: #F9FAFB;
+  --grey:  #E5E7EB;
+  --dark-grey:  #6B7280;
+  --xs: 0;
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --xxl: 1400px;
 }
 
 body {
@@ -23,4 +35,8 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.text-center {
+  text-align:  center;
 }
